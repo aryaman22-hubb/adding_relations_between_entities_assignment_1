@@ -1,9 +1,7 @@
-function App() {
-  return (
-    <div>
-      {/* Your code here */}
-    </div>
-  )
-}
+import DestinationContainer from "./components/DestinationContainer";
 
-export default App
+const App = () => {
+  return <DestinationContainer />;
+};
+
+export default App;
